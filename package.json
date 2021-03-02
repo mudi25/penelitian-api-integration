@@ -1,0 +1,23 @@
+{
+  "name": "translate-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "build": "tsc --project ./"
+  },
+  "author": "Mudiarta Tauda",
+  "license": "MIT",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.2",
+    "execution-time": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "nodemon": "^2.0.7",
+    "ts-morph": "^9.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

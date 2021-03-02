@@ -1,0 +1,165 @@
+[
+
+    {"input": "boolean", "output": "Boolean"},
+    {"input": "Promise<boolean>", "output": "Call<Boolean>"},
+
+    {"input": "boolean|undefined", "output": "Boolean"},
+    {"input": "Promise<boolean|undefined>", "output": "Call<Boolean>"},
+    
+    {"input": "boolean[]", "output": "List<Boolean>"},
+    {"input": "Promise<boolean[]>", "output": "Call<List<Boolean>>"},
+    
+    {"input": "boolean[]|undefined", "output": "List<Boolean>"},
+    {"input": "Promise<boolean[]|undefined>", "output": "Call<List<Boolean>>"},
+    
+    {"input": "Map<string,boolean>", "output": "Map<String,Boolean>"},
+    {"input": "Promise<Map<string,boolean>>", "output": "Call<Map<String,Boolean>>"},
+    
+    {"input": "Map<string,boolean>|undefined", "output": "Map<String,Boolean>"},
+    {"input": "Promise<Map<string,boolean>|undefined>", "output": "Call<Map<String,Boolean>>"},
+
+    {"input": "Map<string,boolean>[]", "output": "List<Map<String,Boolean>>"},
+    {"input": "Promise<Map<string,boolean>[]>", "output": "Call<List<Map<String,Boolean>>>"},
+
+    {"input": "Map<string,boolean>[]|undefined", "output": "List<Map<String,Boolean>>"},
+    {"input": "Promise<Map<string,boolean>[]|undefined>", "output": "Call<List<Map<String,Boolean>>>"},
+
+    {"input": "Map<number,boolean>", "output": "Map<Int,Boolean>"},
+    {"input": "Promise<Map<number,boolean>>", "output": "Call<Map<Int,Boolean>>"},
+    
+    {"input": "Map<number,boolean>|undefined", "output": "Map<Int,Boolean>"},
+    {"input": "Promise<Map<number,boolean>|undefined>", "output": "Call<Map<Int,Boolean>>"},
+
+    {"input": "Map<number,boolean>[]", "output": "List<Map<Int,Boolean>>"},
+    {"input": "Promise<Map<number,boolean>[]>", "output": "Call<List<Map<Int,Boolean>>>"},
+
+    {"input": "Map<number,boolean>[]|undefined", "output": "List<Map<Int,Boolean>>"},
+    {"input": "Promise<Map<number,boolean>[]|undefined>", "output": "Call<List<Map<Int,Boolean>>>"},
+
+
+
+
+    {"input": "number", "output": "Float"},
+    {"input": "Promise<number>", "output": "Call<Float>"},
+
+    {"input": "number|undefined", "output": "Float"},
+    {"input": "Promise<number|undefined>", "output": "Call<Float>"},
+    
+    {"input": "number[]", "output": "List<Float>"},
+    {"input": "Promise<number[]>", "output": "Call<List<Float>>"},
+    
+    {"input": "number[]|undefined", "output": "List<Float>"},
+    {"input": "Promise<number[]|undefined>", "output": "Call<List<Float>>"},
+    
+    {"input": "Map<string,number>", "output": "Map<String,Float>"},
+    {"input": "Promise<Map<string,number>>", "output": "Call<Map<String,Float>>"},
+    
+    {"input": "Map<string,number>|undefined", "output": "Map<String,Float>"},
+    {"input": "Promise<Map<string,number>|undefined>", "output": "Call<Map<String,Float>>"},
+
+    {"input": "Map<string,number>[]", "output": "List<Map<String,Float>>"},
+    {"input": "Promise<Map<string,number>[]>", "output": "Call<List<Map<String,Float>>>"},
+
+    {"input": "Map<string,number>[]|undefined", "output": "List<Map<String,Float>>"},
+    {"input": "Promise<Map<string,number>[]|undefined>", "output": "Call<List<Map<String,Float>>>"},
+
+    {"input": "Map<number,number>", "output": "Map<Int,Float>"},
+    {"input": "Promise<Map<number,number>>", "output": "Call<Map<Int,Float>>"},
+    
+    {"input": "Map<number,number>|undefined", "output": "Map<Int,Float>"},
+    {"input": "Promise<Map<number,number>|undefined>", "output": "Call<Map<Int,Float>>"},
+
+    {"input": "Map<number,number>[]", "output": "List<Map<Int,Float>>"},
+    {"input": "Promise<Map<number,number>[]>", "output": "Call<List<Map<Int,Float>>>"},
+
+    {"input": "Map<number,number>[]|undefined", "output": "List<Map<Int,Float>>"},
+    {"input": "Promise<Map<number,number>[]|undefined>", "output": "Call<List<Map<Int,Float>>>"},
+
+
+    {"input": "string", "output": "String"},
+    {"input": "Promise<string>", "output": "Call<String>"},
+
+    {"input": "string|undefined", "output": "String"},
+    {"input": "Promise<string|undefined>", "output": "Call<String>"},
+    
+    {"input": "string[]", "output": "List<String>"},
+    {"input": "Promise<string[]>", "output": "Call<List<String>>"},
+    
+    {"input": "string[]|undefined", "output": "List<String>"},
+    {"input": "Promise<string[]|undefined>", "output": "Call<List<String>>"},
+    
+    {"input": "Map<string,string>", "output": "Map<String,String>"},
+    {"input": "Promise<Map<string,string>>", "output": "Call<Map<String,String>>"},
+    
+    {"input": "Map<string,string>|undefined", "output": "Map<String,String>"},
+    {"input": "Promise<Map<string,string>|undefined>", "output": "Call<Map<String,String>>"},
+
+    {"input": "Map<string,string>[]", "output": "List<Map<String,String>>"},
+    {"input": "Promise<Map<string,string>[]>", "output": "Call<List<Map<String,String>>>"},
+
+    {"input": "Map<string,string>[]|undefined", "output": "List<Map<String,String>>"},
+    {"input": "Promise<Map<string,string>[]|undefined>", "output": "Call<List<Map<String,String>>>"},
+
+    {"input": "Map<number,string>", "output": "Map<Int,String>"},
+    {"input": "Promise<Map<number,string>>", "output": "Call<Map<Int,String>>"},
+    
+    {"input": "Map<number,string>|undefined", "output": "Map<Int,String>"},
+    {"input": "Promise<Map<number,string>|undefined>", "output": "Call<Map<Int,String>>"},
+
+    {"input": "Map<number,string>[]", "output": "List<Map<Int,String>>"},
+    {"input": "Promise<Map<number,string>[]>", "output": "Call<List<Map<Int,String>>>"},
+
+    {"input": "Map<number,string>[]|undefined", "output": "List<Map<Int,String>>"},
+    {"input": "Promise<Map<number,string>[]|undefined>", "output": "Call<List<Map<Int,String>>>"},
+
+
+
+
+
+
+    {"input": "any", "output": "Any"},
+    {"input": "Promise<any>", "output": "Call<Any>"},
+
+    {"input": "any|undefined", "output": "Any"},
+    {"input": "Promise<any|undefined>", "output": "Call<Any>"},
+    
+    {"input": "any[]", "output": "List<Any>"},
+    {"input": "Promise<any[]>", "output": "Call<List<Any>>"},
+    
+    {"input": "any[]|undefined", "output": "List<Any>"},
+    {"input": "Promise<any[]|undefined>", "output": "Call<List<Any>>"},
+    
+    {"input": "Map<string,any>", "output": "Map<String,Any>"},
+    {"input": "Promise<Map<string,any>>", "output": "Call<Map<String,Any>>"},
+    
+    {"input": "Map<string,any>|undefined", "output": "Map<String,Any>"},
+    {"input": "Promise<Map<string,any>|undefined>", "output": "Call<Map<String,Any>>"},
+
+    {"input": "Map<string,any>[]", "output": "List<Map<String,Any>>"},
+    {"input": "Promise<Map<string,any>[]>", "output": "Call<List<Map<String,Any>>>"},
+
+    {"input": "Map<string,any>[]|undefined", "output": "List<Map<String,Any>>"},
+    {"input": "Promise<Map<string,any>[]|undefined>", "output": "Call<List<Map<String,Any>>>"},
+
+    {"input": "Map<number,any>", "output": "Map<Int,Any>"},
+    {"input": "Promise<Map<number,any>>", "output": "Call<Map<Int,Any>>"},
+    
+    {"input": "Map<number,any>|undefined", "output": "Map<Int,Any>"},
+    {"input": "Promise<Map<number,any>|undefined>", "output": "Call<Map<Int,Any>>"},
+
+    {"input": "Map<number,any>[]", "output": "List<Map<Int,Any>>"},
+    {"input": "Promise<Map<number,any>[]>", "output": "Call<List<Map<Int,Any>>>"},
+
+    {"input": "Map<number,any>[]|undefined", "output": "List<Map<Int,Any>>"},
+    {"input": "Promise<Map<number,any>[]|undefined>", "output": "Call<List<Map<Int,Any>>>"},
+
+
+
+
+    {"input": "Call<void>", "output": "Call<Unit>"},
+    {"input": "Get", "output": "GET"},
+    {"input": "Post", "output": "POST"},
+    {"input": "Put", "output": "PUT"},
+    {"input": "Delete", "output": "DELETE"},
+    {"input": "Body", "output": "Body"}
+]
