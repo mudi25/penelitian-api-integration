@@ -80,8 +80,4 @@ async function testing() {
     // return trainAgain;
   } catch (error) {}
 }
-// testing();
-const data: DataModel[] = JSON.parse(
-  readFileSync(join(__dirname, "..", "data", "latih.json"), "utf-8")
-);
-console.log(data.length);
+testing();
