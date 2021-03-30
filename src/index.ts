@@ -49,19 +49,21 @@ async function latih() {
 async function testing() {
   try {
     const data: DataModel[] = JSON.parse(
-      readFileSync(join(__dirname, "..", "data", "latih.json"), "utf-8")
+      readFileSync(join(__dirname, "..", "data", "uji.json"), "utf-8")
     );
     const net = new brain.recurrent.LSTM();
     net.fromJSON(
       JSON.parse(
-        readFileSync(join(__dirname, "..", "data", "net.json"), "utf-8")
+        readFileSync(join(__dirname, "..", "data", "net1.json"), "utf-8")
       )
     );
 
     const result = data.map((it) => it.output === net.run(it.input));
     const fail = result.filter((it) => it === false).length;
     const success = result.filter((it) => it === true).length;
+
     console.log(
+      result.length,
       "fail",
       fail,
       "success",
@@ -69,6 +71,20 @@ async function testing() {
       "persentase",
       (success / data.length) * 100
     );
+
+    for (const it of data) {
+      // if (it.output !== net.run(it.input)) {
+      //   console.log(it.input, " = ", net.run(it.input), " = ", it.output);
+      // }
+
+      console.log(
+        // it.input
+        // it.output
+        // net.run(it.input),
+        // "\t",
+        net.run(it.input) === it.output ? 1 : 0
+      );
+    }
 
     // for (const iterator of data) {
     //   if (iterator.output !== net.run(iterator.input)) {
@@ -80,4 +96,5 @@ async function testing() {
     // return trainAgain;
   } catch (error) {}
 }
+
 testing();
